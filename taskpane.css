@@ -1,0 +1,221 @@
+/* 
+ * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
+ * See LICENSE in the project root for license information.
+ */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+table,
+th,
+td {
+  border: 0.2px solid black;
+  border-collapse: collapse;
+}
+
+.Lwelcome__header {
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 100px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ms-welcome__main {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0;
+  padding: 10px 20px;
+}
+
+.ms-welcome__main > h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.ms-welcome__features {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.ms-welcome__features.ms-List .ms-ListItem {
+  padding-bottom: 20px;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.ms-welcome__features.ms-List .ms-ListItem > .ms-Icon {
+  margin-right: 10px;
+}
+
+.ms-ListItem:hover {
+  cursor: pointer;
+  background-color: navy;
+  color: white;
+}
+
+.ms-ListItem-active {
+  cursor: pointer;
+  background-color: navy;
+  color: white;
+}
+
+.ms-welcome__action.ms-Button--hero {
+  margin-top: 30px;
+}
+
+.ms-Button.ms-Button--hero .ms-Button-label {
+  color: #0078d7;
+}
+
+.ms-Button.ms-Button--hero:hover .ms-Button-label,
+.ms-Button.ms-Button--hero:focus .ms-Button-label {
+  color: #005a9e;
+  cursor: pointer;
+}
+
+b {
+  font-weight: bold;
+}
+/* Chat containers */
+.container {
+  overflow: scroll;
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.footer {
+  overflow: hidden;
+}
+
+.text-send {
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.fill-width {
+  flex: 1;
+}
+
+.messages {
+  height: 417px;
+  overflow-y: scroll;
+}
+
+.list-items {
+  height: 100px;
+  overflow: scroll;
+}
+
+table {
+  overflow-y: scroll;
+  height: 150px;
+  display: block;
+  /* border: 1px solid red; */
+  /* margin-top: 50px; */
+}
+
+.comment-list-names {
+  position: sticky;
+  top: 0;
+  background-color: #aaa;
+}
+
+.User {
+  width: 75px;
+}
+.Date {
+  width: 65px;
+}
+.Time {
+  width: 59px;
+}
+.Num {
+  width: 5px;
+}
+.Sheet {
+  width: 50px;
+}
+.Cell {
+  width: 30px;
+}
+
+.comment-list {
+  text-align: center;
+}
+
+.message-body {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.message-content {
+  width: 100%;
+}
