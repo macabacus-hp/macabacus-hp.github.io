@@ -1,8 +1,502 @@
 {
+  "actions": [
+    {
+      "id": "BLUEBLACKTOGGLE",
+      "type": "ExecuteFunction",
+      "name": "Toggle Between Blue and Black"
+    },
+    {
+      "id": "FONTCOLORCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Cycle Through Font Colors"
+    },
+    {
+      "id": "FILLCOLORCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Cycle Through Fill Colors"
+    },
+    {
+      "id": "BORDERCOLORCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Cycle Through All Border Colors"
+    },
+    {
+      "id": "CHARTCOLORCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Cycle Through All Chart Colors"
+    },
+    {
+      "id": "AUTOCOLORCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Cycle Through All AutoColors"
+    },
+    {
+      "id": "AUTOCOLORSELECTION",
+      "type": "ExecuteFunction",
+      "name": "AutoColor Selection"
+    },
+    {
+      "id": "AUTOCOLORSHEET",
+      "type": "ExecuteFunction",
+      "name": "AutoColor Sheet"
+    },
+    {
+      "id": "AUTOCOLORWORKBOOK",
+      "type": "ExecuteFunction",
+      "name": "AutoColor Workbook"
+    },
+    {
+      "id": "SETCOLOR",
+      "type": "ExecuteFunction",
+      "name": "Set Color"
+    },
+    {
+      "id": "TESTCONFLICT",
+      "type": "ExecuteFunction",
+      "name": "Test the conflict modal"
+    },
+    {
+      "id": "GENERALNUMBERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "General Number Cycle"
+    },
+    {
+      "id": "LOCALNUMBERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Local Number Cycle"
+    },
+    {
+      "id": "FOREIGNCURRENCYCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Foreign Number Cycle"
+    },
+    {
+      "id": "PERCENTCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Percent Cycle"
+    },
+    {
+      "id": "MULTIPLECYCLE",
+      "type": "ExecuteFunction",
+      "name": "Multiple Cycle"
+    },
+    {
+      "id": "DATECYCLE",
+      "type": "ExecuteFunction",
+      "name": "Date Cycle"
+    },
+    {
+      "id": "BINARYCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Binary Cycle"
+    },
+    {
+      "id": "RATIOCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Ratio Cycle"
+    },
+    {
+      "id": "SHIFTDECIMALLEFT",
+      "type": "ExecuteFunction",
+      "name": "Shift Decimal Left"
+    }
+    ,
+    {
+      "id": "SHIFTDECIMALRIGHT",
+      "type": "ExecuteFunction",
+      "name": "Shift Decimal Right"
+    },
+    {
+      "id": "TOPBORDERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Top Border Cycle"
+    },
+    {
+      "id": "BOTTOMBORDERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Bottom Border Cycle"
+    },
+    {
+      "id": "LEFTBORDERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Left Border Cycle"
+    },
+    {
+      "id": "RIGHTBORDERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Right Border Cycle"
+    },
+    {
+      "id": "OUTSIDEBORDERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Outside Border Cycle"
+    },
+    {
+      "id": "INSIDEBORDERCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Inside Border Cycle"
+    },
+    {
+      "id": "NOBORDER",
+      "type": "ExecuteFunction",
+      "name": "Default"
+    },
+    {
+      "id": "CENTERALIGNMENT",
+      "type": "ExecuteFunction",
+      "name": "Center Alignment"
+    },
+    {
+      "id": "HORIZONTALALIGNMENT",
+      "type": "ExecuteFunction",
+      "name": "Horizontal Alignment"
+    },
+    {
+      "id": "VERTICALALIGNMENT",
+      "type": "ExecuteFunction",
+      "name": "Vertical Alignment"
+    },
+    {
+      "id": "LEFTINDENTCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Left Indent Cycle"
+    },
+    {
+      "id": "RIGHTINDENTCYCLE",
+      "type": "ExecuteFunction",
+      "name": "Right Indent Cycle"
+    },
+    {
+      "id": "FONTSIZECYCLE",
+      "type": "ExecuteFunction",
+      "name": "Font Size Cycle"
+    },
+    {
+      "id": "INCREASEFONTSIZE",
+      "type": "ExecuteFunction",
+      "name": "Increase Font Size"
+    },
+    {
+      "id": "DECREASEFONTSIZE",
+      "type": "ExecuteFunction",
+      "name": "Decrease Font Size"
+    },
+    {
+      "id": "UNDERLINECYCLE",
+      "type": "ExecuteFunction",
+      "name": "Underline Cycle"
+    },
+    {
+      "id": "CASECYCLE",
+      "type": "ExecuteFunction",
+      "name": "Case Cycle"
+    },
+    {
+      "id": "LISTCYCLE",
+      "type": "ExecuteFunction",
+      "name": "List Cycle"
+    },
+    {
+      "id": "CAPTUREPAINTBRUSH",
+      "type": "ExecuteFunction",
+      "name": "Capture Paintbrush"
+    },
+    {
+      "id": "APPLYPAINTBRUSH",
+      "type": "ExecuteFunction",
+      "name": "Apply Paintbrush"
+    },
+    {
+      "id": "CLEARPAINTBRUSH",
+      "type": "ExecuteFunction",
+      "name": "Clear Paintbrush"
+    },
+    {
+      "id": "LEADERDOTS",
+      "type": "ExecuteFunction",
+      "name": "Leader Dots"
+    },
+    {
+      "id": "SUMBAR",
+      "type": "ExecuteFunction",
+      "name": "Sum Bar"
+    },
+    {
+      "id": "WRAPTEXT",
+      "type": "ExecuteFunction",
+      "name": "Wrap Text"
+    }
+  ],
   "shortcuts": [
     {
-      "id": "SETBOLD",
-      "key": "CTRL+SHIFT+B"
+      "action": "BLUEBLACKTOGGLE",
+      "key": {
+        "default": "Ctrl+;"
+      }
+    },
+    {
+      "action": "FONTCOLORCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+2"
+      }
+    },
+    {
+      "action": "FILLCOLORCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+K"
+      }
+    },
+    {
+      "action": "BORDERCOLORCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+Shift+4"
+      }
+    },
+    {
+      "action": "CHARTCOLORCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+C"
+      }
+    },
+    {
+      "action": "AUTOCOLORCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+6"
+      }
+    },
+    {
+      "action": "AUTOCOLORSELECTION",
+      "key": {
+        "default": "Ctrl+Shift+7"
+      }
+    },
+    {
+      "action": "AUTOCOLORSHEET",
+      "key": {
+        "default": "Ctrl+Shift+8"
+      }
+    },
+    {
+      "action": "AUTOCOLORWORKBOOK",
+      "key": {
+        "default": "Ctrl+Shift+9"
+      }
+    },
+    {
+      "action": "SETCOLOR",
+      "key": {
+        "default": "Alt+Shift+L"
+      }
+    },
+    {
+      "action": "TESTCONFLICT",
+      "key": {
+        "default": "Ctrl+R"
+      }
+    },
+    {
+      "action": "GENERALNUMBERCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+1"
+      }
+    },
+    {
+      "action": "LOCALNUMBERCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+2"
+      }
+    },
+    {
+      "action": "FOREIGNCURRENCYCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+3"
+      }
+    },
+    {
+      "action": "PERCENTCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+4"
+      }
+    },
+    {
+      "action": "MULTIPLECYCLE",
+      "key": {
+        "default": "Ctrl+Alt+5"
+      }
+    },
+    {
+      "action": "DATECYCLE",
+      "key": {
+        "default": "Ctrl+Alt+6"
+      }
+    },
+    {
+      "action": "BINARYCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+7"
+      }
+    },
+    {
+      "action": "RATIOCYCLE",
+      "key": {
+        "default": "Ctrl+Alt+8"
+      }
+    },
+    {
+      "action": "SHIFTDECIMALLEFT",
+      "key": {
+        "default": "Ctrl+Alt+9"
+      }
+    },
+    {
+      "action": "SHIFTDECIMALRIGHT",
+      "key": {
+        "default": "Ctrl+Alt+0"
+      }
+    },
+    {
+      "action": "TOPBORDERCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+Q"
+      }
+    },
+    {
+      "action": "BOTTOMBORDERCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+W"
+      }
+    },
+    {
+      "action": "LEFTBORDERCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+E"
+      }
+    },
+    {
+      "action": "RIGHTBORDERCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+R"
+      }
+    },
+    {
+      "action": "OUTSIDEBORDERCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+T"
+      }
+    },
+    {
+      "action": "INSIDEBORDERCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+Y"
+      }
+    },
+    {
+      "action": "NOBORDER",
+      "key": {
+        "default": "Ctrl+Shift+U"
+      }
+    },
+    {
+      "action": "CENTERALIGNMENT",
+      "key": {
+        "default": "Ctrl+Shift+I"
+      }
+    },
+    {
+      "action": "HORIZONTALALIGNMENT",
+      "key": {
+        "default": "Ctrl+Shift+O"
+      }
+    },
+    {
+      "action": "VERTICALALIGNMENT",
+      "key": {
+        "default": "Ctrl+Shift+P"
+      }
+    },
+    {
+      "action": "LEFTINDENTCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+A"
+      }
+    },
+    {
+      "action": "RIGHTINDENTCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+S"
+      }
+    },
+    {
+      "action": "FONTSIZECYCLE",
+      "key": {
+        "default": "Ctrl+Shift+D"
+      }
+    },
+    {
+      "action": "INCREASEFONTSIZE",
+      "key": {
+        "default": "Ctrl+Shift+F"
+      }
+    },
+    {
+      "action": "DECREASEFONTSIZE",
+      "key": {
+        "default": "Ctrl+Shift+G"
+      }
+    },
+    {
+      "action": "UNDERLINECYCLE",
+      "key": {
+        "default": "Ctrl+Shift+H"
+      }
+    },
+    {
+      "action": "CASECYCLE",
+      "key": {
+        "default": "Ctrl+Shift+J"
+      }
+    },
+    {
+      "action": "LISTCYCLE",
+      "key": {
+        "default": "Ctrl+Shift+K"
+      }
+    },
+    {
+      "action": "CAPTUREPAINTBRUSH",
+      "key": {
+        "default": "Ctrl+Shift+L"
+      }
+    },
+    {
+      "action": "APPLYPAINTBRUSH",
+      "key": {
+        "default": "Ctrl+Shift+Z"
+      }
+    },
+    {
+      "action": "CLEARPAINTBRUSH",
+      "key": {
+        "default": "Ctrl+Shift+X"
+      }
+    },
+    {
+      "action": "LEADERDOTS",
+      "key": {
+        "default": "Ctrl+Shift+B"
+      }
+    },
+    {
+      "action": "SUMBAR",
+      "key": {
+        "default": "Ctrl+Shift+N"
+      }
+    },
+    {
+      "action": "WRAPTEXT",
+      "key": {
+        "default": "Ctrl+Shift+M"
+      }
     }
   ]
 }
