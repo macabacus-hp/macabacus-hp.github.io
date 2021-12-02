@@ -15,6 +15,7 @@ import { symbols } from "./functions/singleUseFunctions";
 
 /* global global, Office, self, window */
 function initiateSettings() {
+  
   if (Office.context.document.settings.get("settings") === null) {
     let settings = {
       format: {
@@ -372,7 +373,7 @@ function initiateSettings() {
   
   Office.context.document.settings.saveAsync();
 }
-Office.onReady(async () => {
+Office.initialize(async () => {
   // If needed, Office.js is ready to be called
   console.log("Start");
   initiateSettings();
